@@ -5,7 +5,8 @@
 
 int main(void){
 float area = Area_Circle(10);
-printf("%.2f",area);
+printf("Area_Circle = %.2f \n",area);
+printf("Current time: %s \n",__TIME__);
 
 return 0;
 }
